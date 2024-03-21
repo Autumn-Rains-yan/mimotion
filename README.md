@@ -1,3 +1,7 @@
+`我自己的改动，当前自动执行时间为每日的0:37 3:37 5:37`
+`步数不会随时间变化来进行变化，固定执行配置中的随机数`
+
+
 # mimotion
 
 ![ 刷步数](https://github.com/TonyJiangWJ/mimotion/actions/workflows/run.yml/badge.svg)
