@@ -125,7 +125,7 @@ class MiMotionRunner:
         login_headers = {
             "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2",
-            "X-Forwarded-For": self.fake_ip_addr
+            # "X-Forwarded-For": self.fake_ip_addr
         }
         data1 = {
             "client_id": "HuaMi",
