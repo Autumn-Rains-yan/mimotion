@@ -40,7 +40,7 @@ def make_request(user, pwd, num):
         'pwd': pwd,
         'num': str(num)
     }
-    response = requests.post('https://d.faithxy.com/motion/api/motion/Xiaomi', headers=headers, data=payload)
+    response = requests.post('https://api.faithxy.com/motion/api/motion/Xiaomi', headers=headers, data=payload)
     response_data = response.json()
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     desensitized_user = desensitize_user_name(user)
