@@ -66,7 +66,8 @@ if __name__ == "__main__":
         users = config["USER"].split('#')
         passwords = config["PWD"].split('#')
         rangeNum = 0
-        sleepNum = int(config["SLEEP_GAP"])
+        # sleepNum = int(config["SLEEP_GAP"])
+        sleepNum = 1000
         for user, pwd in zip(users, passwords):
             if rangeNum != 0:
                 print(f'请等待{sleepNum}秒')
